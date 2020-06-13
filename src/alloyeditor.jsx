@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 const loadScript = require('load-script');
 
-const scriptUrl = 'https://unpkg.com/alloyeditor@1.5.26/dist/alloy-editor/alloy-editor-all-min.js';
+const scriptUrl = 'https://cdnjs.cloudflare.com/ajax/libs/alloyeditor/2.11.7/alloy-editor-all.min.js';
 
 class AlloyEditor extends Component {
     constructor(props) {
